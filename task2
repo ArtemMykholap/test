@@ -1,8 +1,0 @@
-var arr = [2, 4, 7, 9, 4, 1, 16];
-function getMin(arr) {
-  var min = arr[0];
-  arr.forEach(function(e) {
-    if (e < min) min = e;
-  });
-  return min;
-}
